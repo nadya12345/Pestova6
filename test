@@ -1,0 +1,4 @@
+<?php
+$colors = array("red", "green", "blue");
+echo "My favorite color is " . $colors[0];
+?>
