@@ -1,0 +1,13 @@
+<?php
+if(isset($_POST['day'])) {
+    if($_POST['day']-1 == date('z')) {
+        echo 'Вы абсолютно правы!';
+    } else {
+        echo 'Нет, подумайте лучше!';
+    }
+}
+?>
+<form action="" method="post">
+    Введите номер дня: <input type="text" name="day">
+    <input type="submit">
+</form>
